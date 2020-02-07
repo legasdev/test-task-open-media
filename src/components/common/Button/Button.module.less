@@ -1,0 +1,47 @@
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  user-select: none;
+  border-radius: 50vh;
+  box-shadow: 0 1px 5px rgba(99, 114, 130, 0.15),
+              0 1px 1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: box-shadow .2s;
+
+  & > .arrow {
+    transition: opacity .2s;
+
+    & path {
+      stroke: #fff;
+      stroke-width: 1.2px;
+    }
+  }
+
+  &.opacity {
+    background-color: rgba(255, 255, 255, .2);
+  }
+
+  &.left {
+    transform: scaleX(-1);
+  }
+
+  &.disabled > .arrow {
+    opacity: .3;
+  }
+
+  &:hover {
+    box-shadow: 0 40px 40px rgba(10, 0, 32, 0.08),
+                0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  &:active {
+    box-shadow: 0 1px 5px rgba(99, 114, 130, 0.15),
+                0 1px 1px rgba(0, 0, 0, 0.08);
+  }
+}
+

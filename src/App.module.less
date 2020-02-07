@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #F7F7F8;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .5s, visibility .5s;
+
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  & > p {
+    font-family: var(--fontLight);
+    font-weight: 300;
+    font-size: 24px;
+  }
+}
