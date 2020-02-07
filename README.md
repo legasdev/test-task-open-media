@@ -1,3 +1,7 @@
+## Test task
+
+Создать страницу со слайдером и блогом. Данные подгрузить из .json файла. Статьи из блога отсортировать от новых к старым.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
