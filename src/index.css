@@ -1,32 +1,32 @@
 @font-face {
   font-family: "ProximaRegular";
-  src: url("/fonts/ProximaNova-Regular.eot");
-  src: url("/fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
-  url("/fonts/ProximaNova-Regular.woff") format("woff"),
-  url("/fonts/ProximaNova-Regular.woff2") format("woff2"),
-  url("/fonts/ProximaNova-Regular.ttf") format("truetype");
+  src: url("/test-task/fonts/ProximaNova-Regular.eot");
+  src: url("/test-task/fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+  url("/test-task/fonts/ProximaNova-Regular.woff") format("woff"),
+  url("/test-task/fonts/ProximaNova-Regular.woff2") format("woff2"),
+  url("/test-task/fonts/ProximaNova-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "ProximaLight";
-  src: url("/fonts/ProximaNova-Light.eot");
-  src: url("/fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"),
-  url("/fonts/ProximaNova-Light.woff") format("woff"),
-  url("/fonts/ProximaNova-Light.woff2") format("woff2"),
-  url("/fonts/ProximaNova-Light.ttf") format("truetype");
+  src: url("/test-task/fonts/ProximaNova-Light.eot");
+  src: url("/test-task/fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"),
+  url("/test-task/fonts/ProximaNova-Light.woff") format("woff"),
+  url("/test-task/fonts/ProximaNova-Light.woff2") format("woff2"),
+  url("/test-task/fonts/ProximaNova-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "ProximaSemibold";
-  src: url("/fonts/ProximaNova-Semibold.eot");
-  src: url("/fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"),
-  url("/fonts/ProximaNova-Semibold.woff") format("woff"),
-  url("/fonts/ProximaNova-Semibold.woff2") format("woff2"),
-  url("/fonts/ProximaNova-Semibold.ttf") format("truetype");
+  src: url("/test-task/fonts/ProximaNova-Semibold.eot");
+  src: url("/test-task/fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"),
+  url("/test-task/fonts/ProximaNova-Semibold.woff") format("woff"),
+  url("/test-task/fonts/ProximaNova-Semibold.woff2") format("woff2"),
+  url("/test-task/fonts/ProximaNova-Semibold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -62,9 +62,7 @@ textarea {
 }
 
 body {
-  font-family: "ProximaRegular", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "ProximaRegular", 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #F7F7F8;
@@ -72,15 +70,9 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 
-  --fontLight: "ProximaLight", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  --fontRegular: "ProximaRegular", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  --fontSemibold: "ProximaSemibold", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  --fontLight: "ProximaLight", 'Arial', sans-serif;
+  --fontRegular: "ProximaRegular", 'Arial', sans-serif;
+  --fontSemibold: "ProximaSemibold", 'Arial', sans-serif;
 }
 
 code {

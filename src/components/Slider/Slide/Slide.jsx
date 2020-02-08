@@ -22,7 +22,9 @@ const Slide = ({ name, text, instagramUsername, active }) => (
             target='_blank'
             rel='noopener noreferrer'
         >
-            {name}, <span>{`@${instagramUsername}`}</span>
+            {name}
+            <span className={s.separator}>, </span>
+            <span className={s.instLogin}>{`@${instagramUsername}`}</span>
         </a>
     </div>
 );

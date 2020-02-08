@@ -74,8 +74,8 @@
         });
 
         .adaptive(600px; {
-            font-size: 18px;
-            line-height: 22px;
+            font-size: 17px;
+            line-height: 20px;
         });
     }
 
@@ -87,10 +87,24 @@
         letter-spacing: 0.2px;
         text-decoration: none;
 
-        & > span {
+        & > .separator {
+            .adaptive(1000px; {
+                display: none;
+            });
+        }
+
+        & > .instLogin {
             font-family: var(--fontLight);
             font-weight: 200;
+
+            .adaptive(1000px; {
+                display: block;
+            });
         }
+
+        .adaptive(1000px; {
+            margin-top: 32px;
+        });
 
         .adaptive(600px; {
             font-size: 16px;
